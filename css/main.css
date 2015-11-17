@@ -10,17 +10,15 @@ h1 {
 }
 
 nav {
-  margin: 0;
-  padding: 0;
   background-color: #7671a9;
 }
 
 nav ul {
   list-style-type: none;
+  padding: 0;
 }
 
 nav a {
   display: block;
-  padding: 0.5em;
   text-decoration: none;
 }
