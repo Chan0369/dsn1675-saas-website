@@ -19,3 +19,10 @@ html {
 body {
   margin: 0;
 }
+
+h1 {
+  font-family: 'Playball', cursive;
+  color: white;
+  background-color: #5ac3b7;
+  margin: 0;
+}
