@@ -26,3 +26,10 @@ h1 {
   background-color: #5ac3b7;
   margin: 0;
 }
+
+nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #7671a9;
+}
