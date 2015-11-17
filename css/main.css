@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+.backgroundcolor {
+  background-color: #5ac3b7;
+}
+
 h1 {
   font-family: 'Playball', cursive;
   color: white;
@@ -21,4 +25,8 @@ nav ul {
 nav a {
   display: block;
   text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #a8d160;
 }
