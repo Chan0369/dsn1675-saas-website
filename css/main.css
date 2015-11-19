@@ -43,6 +43,14 @@ p {
   margin: 0;
 }
 
+.backgroundcolor2 {
+  background-color: #a8d160;
+}
+
+.tour {
+  color: white;
+}
+
 footer {
   overflow: hidden;
   background-color: #5ac3b7;
