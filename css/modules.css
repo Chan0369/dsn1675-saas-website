@@ -1,7 +1,7 @@
 /*!
  * Modulifier || Code released under the UNLICENSE
  * Code under other copyrights & licenses listed below.
- * http://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;icons;accessibility;print
+ * http://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;positioning;accessibility;print
  */
 
 @-moz-viewport { width: device-width; scale: 1; }
@@ -181,58 +181,110 @@ svg {
   min-width: 12em; /* Slightly less than 200px, responsiveness built in */
 }
 
-.icon {
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clearfix::before, .clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block, .ib {
   display: inline-block;
+}
+
+.valign-top {
+  vertical-align: top;
+}
+
+.valign-bottom {
+  vertical-align: bottom;
+}
+
+.valign-middle {
+  vertical-align: middle;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
   position: relative;
-  background: transparent none no-repeat center center;
-  background-size: contain;
-  vertical-align: middle;
 }
 
-.i--16 {
-  height: 16px;
-  width: 16px;
-}
-
-.i--18 {
-  height: 18px;
-  width: 18px;
-}
-
-.i--24 {
-  height: 24px;
-  width: 24px;
-}
-
-.i--32 {
-  height: 32px;
-  width: 32px;
-}
-
-.i--48 {
-  height: 48px;
-  width: 48px;
-}
-
-.i--64 {
-  height: 64px;
-  width: 64px;
-}
-
-.icon svg {
-  left: 0;
-  height: 100%;
+.absolute {
   position: absolute;
+}
+
+.static {
+  position: static;
+}
+
+.zindex-1 {
+  z-index: 1;
+}
+
+.zindex-2 {
+  z-index: 2;
+}
+
+.zindex-3 {
+  z-index: 3;
+}
+
+.pin-top-left, .pin-tl {
   top: 0;
+  left: 0;
+}
+
+.pin-top-right, .pin-tr {
+  top: 0;
+  right: 0;
+}
+
+.pin-bottom-left, .pin-bl {
+  bottom: 0;
+  left: 0;
+}
+
+.pin-bottom-right, .pin-br {
+  bottom: 0;
+  right: 0;
+}
+
+.width-quarter, .w-1-4 {
+  width: 25%;
+}
+
+.width-half, .w-1-2 {
+  width: 50%;
+}
+
+.width-full, .w-1 {
   width: 100%;
-}
-
-.icon-label {
-  vertical-align: middle;
-}
-
-.icon-link, .icon-link:hover {
-  text-decoration: none;
 }
 
 a:hover, a:active {
