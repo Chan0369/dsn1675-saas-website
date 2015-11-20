@@ -35,6 +35,12 @@ nav a:hover {
   background-color: #a8d160;
 }
 
+.background-image {
+  background-image: url("http://placehold.it/1600x727");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 h2 {
   margin: 0;
   font-family: 'Playball', cursive;
