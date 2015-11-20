@@ -19,18 +19,20 @@
     <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
-  <header class="backgroundcolor">
+  <header class="masthead backgroundcolor" role="banner">
     <div class="grid">
-      <div class="unit xs-1 s-1 m-1-4 l-1-4 center">
-        <img class="img-flex" src="images/logo.svg" alt="">
+      <div class="unit xs-1 s-1 m-1-8 l-1-8 center">
+        <img class="img-flex island-1-4 logo center" src="images/logo.svg" alt="">
       </div>
-      <div class="unit xs-1 s-1 m-1 l-1">
-        <h1 class="text-center pad-top-half pad-bottom-half">One + One</h1>
-      </div>
-      <div class="unit xs-1 s-1 m-1 l-1">
-        <nav id="nav">
+
+        <div class="unit xs-1 s-1 m-1-4 l-1-4 pad-top-half">
+          <h1 class="text-center">One + One</h1>
+        </div>
+
+      <div class="unit xs-1 s-1 m-5-8 l-5-8 pad-top">
+        <nav id="nav" role="navigation">
           <ul class="text-center">
-            <li><a class="pad-top-half pad-bottom-half gutter" href="index.html">Home</a></li>
+            <li><a class="pad-top pad-bottom-half gutter" href="index.html">Home</a></li>
             <li><a class="pad-top-half pad-bottom-half gutter" href="tour.html">Tour</a></li>
             <li><a class="pad-top-half pad-bottom-half gutter" href="pricing.html">Pricing</a></li>
             <li><a class="pad-top-half pad-bottom-half gutter" href="signup.html">Sign Up</a></li>
@@ -41,7 +43,7 @@
   </header>
 
 
-<main>
+<main id="main" role="main">
   <div class="background-image text-center pad-t-2 pad-b-2">
     <h3 class="pad-t pad-b-1-4">Easy. Stressed Free. Organized.</h3>
       <p>Organizing a wedding is not that easy, but this can help you!</p>
@@ -53,12 +55,14 @@
 </main>
 
 
-<footer>
+<footer >
   <div class="grid">
     <div class="unit xs-1 s-1 m-1 l-1 text-center">
       <a id="header" href="">Back to top</a>
-      <p>©2015 One + One. All Rights Reserved</p>
-      <p>Privacy Policy • Terms of Use</p>
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1 text-center micro" role="contentinfo">
+      <p>©2015 One + One. All Rights Reserved
+      Privacy Policy • Terms of Use</p>
     </div>
   </div>
 </footer>
