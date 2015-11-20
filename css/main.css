@@ -43,6 +43,13 @@ p {
   margin: 0;
 }
 
+footer {
+  overflow: hidden;
+  background-color: #5ac3b7;
+  color: white;
+  padding: 1em 0.5em 1em 0.5em;
+}
+
 .backgroundcolor2 {
   background-color: #a8d160;
 }
@@ -51,22 +58,18 @@ p {
   color: white;
 }
 
-footer {
-  overflow: hidden;
-  background-color: #5ac3b7;
+.price {
   color: white;
-  padding: 1em 0.5em 1em 0.5em;
 }
 
+h3 {
+  margin: 0;
+}
 
 @media only screen and (min-width: 25em) {
 
 nav li {
   display: inline-block;
 }
-
-}
-
-@media only screen and (min-width: 38em) {
 
 }
