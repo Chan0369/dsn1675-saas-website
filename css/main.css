@@ -42,6 +42,13 @@ nav a:hover {
   padding: 3em 1em 3em 1em;
 }
 
+.background-image2 {
+  background-image: url("http://placehold.it/1600x727");
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 2em 0.5em 2em 0.5em;
+}
+
 h2 {
   margin: 0;
   font-family: 'Playball', cursive;
@@ -84,12 +91,20 @@ h3 {
     padding: 7em 1em 7em 1em;
   }
 
+  .background-image2 {
+    padding: 5em 0.5em 5em 0.5em;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
 
   .background-image {
     padding: 10em;
+  }
+
+  .background-image2 {
+    padding: 6em;
   }
 
 }
