@@ -42,34 +42,40 @@
     </div>
   </header>
 
-<main id="main" role="main">
+
   <div class="grid">
     <div class="unit xs-1 s-1 m-1 l-1 text-center pad-t-1-2 pad-b-1-2">
       <h2>Sign Up</h2>
     </div>
   </div>
 
-  <div class="grid">
-    <div class="unit xs-1 s-1 m-1-2 l-1-3 gutter-half">
-      <p><b>First name</p></p>
-        <img class="img-flex pad-b-1-2" src="http://placehold.it/350x30" alt="">
-      <p><b>Last name</p></p>
-        <img class="img-flex pad-b-1-2" src="http://placehold.it/350x30" alt="">
-    </div>
-    <div class="unit xs-1 s-1 m-1 l-1 gutter-half">
-      <p><b>Email</p></p>
-        <img class="img-flex pad-b-1-2" src="http://placehold.it/350x30" alt="">
-      <p><b>Password</p></p>
-        <img class="img-flex pad-b-1-2" src="http://placehold.it/350x30" alt="">
-    </div>
-  </div>
 
-  <div class="grid">
-    <div class="unit xs-1 s-1 m-1 l-1-4 text-center pad-t pad-b">
-      <a class="btn" href="signup.html">Signup</a>
+<form class="backgroundcolor2">
+    <div class="text-center pad-top pad-bottom-half">
+      <label>First name</label>
+        <input id="first name" required name="name">
     </div>
-  </div>
-</main>
+
+    <div class="text-center pad-bottom-half">
+      <label>Last name</label>
+        <input id="last name" required name="name">
+    </div>
+
+    <div class="text-center pad-bottom-half">
+      <label for="email">Email</label>
+        <input id="email" type="email" name="email" required placeholder="you@yours.com">
+    </div>
+
+    <div class="text-center pad-bottom-half">
+      <label>Password</label>
+        <input id="password" required name="password">
+    </div>
+
+    <div class="text-center pad-bottom">
+      <button type="submit" href="signup.html">Signup</button>
+    </div>
+</form>
+
 
 <footer>
   <div class="grid">
