@@ -101,7 +101,11 @@ h3 {
   }
 
   .background-image2 {
-    padding: 5em 0.5em 5em 0.5em;
+    padding: 3em 0em 3em 0em;
+  }
+
+  .background-image3 {
+    padding: 7em 0.5em 7em 0.5em;
   }
 
 }
@@ -113,7 +117,11 @@ h3 {
   }
 
   .background-image2 {
-    padding: 6em;
+    padding: 3em;
+  }
+
+  .background-image3 {
+    padding: 2em;
   }
 
 }
