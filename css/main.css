@@ -88,6 +88,8 @@ footer {
 
 h3 {
   margin: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 @media only screen and (min-width: 25em) {
