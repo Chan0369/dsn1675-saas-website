@@ -37,14 +37,21 @@ nav a:hover {
 }
 
 .background-image {
-  background-image: url("http://placehold.it/1600x727");
+  background-image: url("../images/wedding-pic.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   padding: 3em 1em 3em 1em;
 }
 
 .background-image2 {
-  background-image: url("http://placehold.it/1600x727");
+  background-image: url("../images/wedding-pic2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 2em 0.5em 2em 0.5em;
+}
+
+.background-image3 {
+  background-image: url("../images/wedding-pic3.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   padding: 2em 0.5em 2em 0.5em;
