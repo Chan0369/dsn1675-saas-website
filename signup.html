@@ -53,7 +53,7 @@
   </div>
 
 <main>
-<form class="backgroundcolor2">
+<form class="backgroundcolor2" action="http://formspree.io/chan0369@algonquinlive.com" method="post">
     <div class="text-center pad-top pad-bottom-half">
       <label>First name</label>
         <input id="first name" required name="name">
@@ -73,6 +73,48 @@
       <label>Password</label>
         <input type="password" id="password" required name="password">
     </div>
+
+    <div class="text-center pad-b">
+        <label for="subject">Choose Your Plan</label>
+        <select id="subject" name="_subject">
+          <option>Select</option>
+          <option>The Thrifty Bride</option>
+          <option>The Standard</option>
+          <option>The Big Spender</option>
+        </select>
+    </div>
+
+    <fieldset class="text-center">
+      <h3 class="pad-b">Payment Method</h3>
+
+      <input id="mastercard" type="radio" name="mastercard" value="mastercard">
+      <label for="mastercard">Mastercard</label>
+
+      <input id="visa" type="radio" name="visa" value="visa">
+      <label for="visa">Visa</label>
+
+      <input id="pay-pal" type="radio" name="pay-pal" value="pay-pal">
+      <label for="pay-pal">Pay-Pal</label>
+
+      <input id="interact" type="radio" name="interact" value="interact">
+      <label for="interact">Interact</label>
+
+      <div class="pad-t pad-b-1-4">
+        <label for="card-holder">Primary Card Holder</label>
+        <input id="card-holder" required name="card-holder">
+      </div>
+
+      <div class="pad-t-1-4 pad-b-1-4">
+        <label for="card-number">Card Number</label>
+        <input id="card-number" required name="card-number">
+      </div>
+
+      <div class="pad-t-1-4 pad-b">
+        <label for="cvv">CVV(3 digits on the back of your card)</label>
+        <input id="cvv" required name="cvv">
+      </div>
+
+    </fieldset>
 
     <div class="text-center pad-bottom">
       <button class="btn2" type="submit" href="signup.html">Signup</button>
