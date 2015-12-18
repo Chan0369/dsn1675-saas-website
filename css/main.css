@@ -46,9 +46,18 @@ h2 {
   font-family: 'Playball', cursive;
 }
 
-.intro {
-  margin-left: 1em;
-  margin-right: 1em;
+.banner {
+  background-image: url("../images/wedding-pic.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 100%;
+  padding-top: 3em;
+  padding-bottom: 4em;
+}
+
+.text-color {
+  color: white;
 }
 
 p {
@@ -98,6 +107,10 @@ h3 {
 
   .background-image3 {
     padding: 7em 0.5em 7em 0.5em;
+  }
+
+  .text-color {
+    text-align: left;
   }
 
 }
